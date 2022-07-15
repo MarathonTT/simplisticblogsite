@@ -1,0 +1,134 @@
+<head>
+    <title> Nic Codes </title>
+    <meta name=:viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+<link>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/assets/favicon.ico">
+<style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            font-family: "Roboto Mono", monospace;
+            font-weight: bold;
+            font-size: 20px;
+
+            text-align: center;
+
+            display: grid;
+
+            grid-template-columns: 1fr 1200px 1fr;
+            grid-template-rows: 250px auto 100px;
+
+            gap: 10px;
+
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .container div {
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+
+        #myInput {
+          /* background-image: url('/css/searchicon.png');  Add a search icon to input */
+          background-position: 10px 12px; /* Position the search icon */
+          background-repeat: no-repeat; /* Do not repeat the icon image */
+          width: 70%; /* Full-width */
+          font-size: 16px; /* Increase font-size */
+          padding: 12px 20px 12px 40px; /* Add some padding */
+          border: 1px solid #ddd; /* Add a grey border */
+          margin-bottom: 12px; /* Add some space below the input */
+          text-align: center;
+        }
+
+        #myUL {
+          /* Remove default list styling */
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        #myUL li a {
+          /* border: 1px solid #ddd;  Add a border to all links */
+          margin-top: -1px; /* Prevent double borders */
+          background-color: #fff; /* Grey background color */
+          padding: 3px; /* Add some padding */
+          text-decoration: none; /* Remove default text underline */
+          font-size: 18px; /* Increase the font-size */
+          color: black; /* Add a black text color */
+          display: block; /* Make it into a block element to fill the whole list */
+          text-align: left;
+          margin-left: 100px;
+        }
+
+        #myUL a:hover:not(.header) {
+          background-color: #eee; /* Add a hover effect to all links, except for headers */
+        }
+
+        .header {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .body {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+
+        .socials {
+            grid-row-start: 2;
+            grid-row-end: 2;
+        }
+
+        div.nav {
+            text-indent: 18px;
+            line-height: 2.0;
+        }
+
+        div.socials {
+            text-indent: 18px;
+            line-height: 1.8;
+            margin-left: -100px;
+        }
+
+        .nav {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            margin-top: 28px;
+            background-color: white;
+            color: black;
+            font-size: 18px;
+            text-align: left;
+          }
+
+        a:link {
+            color:#22b14c;
+            text-decoration:none;
+        }
+
+        .feed {
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .footer {
+            grid-row: 3;
+            grid-column: span 3;
+        }
+
+    </style>
+</head>
